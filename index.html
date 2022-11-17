@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch A Sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+
+        <div>
+    <h1>Etch A Sketch</h1>
+    <p>Choose the Square Number and the color, then move the mouse to draw.</p>
+    <p>To clear the grid, push the reset button</p>
+
+    <button id="reset">Reset</button>
+    <button id="black"> Black </button>
+    <button id="rgb">RGB</button>
+    <input type="color" id="color">
+  
+    <span>Choose your color</span><br>
+    <input type="range" min="2" max="100" value="16" id="slider">
+    
+    <span id="value">16</span>
+    
+         </div>
+
+    <div id="container"></div>
+
+    </div>
+    <script src="etch.js"></script>
+</body>
+</html>
